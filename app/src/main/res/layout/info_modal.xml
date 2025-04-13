@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/dark_beige">
+
+    <TextView
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/info_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/message"
+        android:textSize="20sp"
+        android:textColor="@color/orange"
+        android:lineSpacingExtra="2dp"/>
+
+    <TextView
+        android:id="@+id/description_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/desc_one"
+        android:textSize="16sp"
+        android:textColor="@color/orange"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/description_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/desc_two"
+        android:textSize="16sp"
+        android:textColor="@color/orange"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/description_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/desc_three"
+        android:textSize="16sp"
+        android:textColor="@color/orange"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btn_modal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/orange"
+        android:text="@string/btn_done"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
