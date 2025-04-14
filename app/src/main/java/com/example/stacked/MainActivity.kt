@@ -51,28 +51,28 @@ class MainActivity : AppCompatActivity() {
                 val booksLeftYear = yearlyGoal - booksReadYear
 
                 // populates the UI elements with the updated calculated results
-                tvMonthlyGoal.text = "Monthly Goal: $monthlyGoal"
+                tvMonthlyGoal.text = "$monthlyGoal"
 
                 // the following are conditional statements to check if reader has completed a goal to display a different message
                 tvMonthlyProgress.text = if (booksLeftMonth <= 0)
-                    "Monthly Progress: Goal Achieved! You have reached your monthly reading goal."
+                    "100%"
                 else
-                    "Monthly Progress: $monthlyProgress%"
+                    "$monthlyProgress%"
 
                 tvYearlyProgress.text = if (booksLeftYear <= 0)
-                    "Yearly Progress: Goal Achieved! You have reached your yearly reading goal."
+                    "100%"
                 else
-                    "Yearly Progress: $yearlyProgress%"
+                    "$yearlyProgress%"
 
                 tvBooksLeftMonth.text = if (booksLeftMonth <= 0)
-                    "Books Left This Month: No books left to read this month!"
+                    "Monthly reading goal? Done!"
                 else
-                    "Books Left This Month: $booksLeftMonth"
+                    "$booksLeftMonth books left."
 
                 tvBooksLeftYear.text = if (booksLeftYear <= 0)
-                    "Books Left This Year: No books left to read this year!"
+                    "Yearly reading goal? Done!"
                 else
-                    "Books Left This Year: $booksLeftYear"
+                    "$booksLeftYear books left."
 
             } else {
                 // message displayed if user does not input into a field

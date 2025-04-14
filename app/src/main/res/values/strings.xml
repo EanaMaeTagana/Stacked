@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Stacked</string>
     <string name="header_one">Track Every Book,</string>
     <string name="header_two">Every Page, Stacked</string>
@@ -6,11 +6,16 @@
     <string name="books_read_year">Books Read (Year):</string>
     <string name="books_read_month">Books Read (Month):</string>
     <string name="btn_calculate">Calculate Progress</string>
-    <string name="result_monthly_goal">Monthly Goal:</string>
-    <string name="result_monthly_progress">Monthly Progress:</string>
-    <string name="result_yearly_progress">Yearly Progress:</string>
-    <string name="result_books_left_month">Books Left for the Month:</string>
-    <string name="result_books_left_year">Books Left for the Year:</string>
+    <string name="monthly_goal">Monthly Book Goal</string>
+    <string name="monthly_progress">Monthly Progress</string>
+    <string name="yearly_progress">Yearly Progress</string>
+    <string name="books_left_month">Books Left this Month</string>
+    <string name="books_left_year">Books Left this Year</string>
+    <string name="result_monthly_goal">…</string>
+    <string name="result_monthly_progress">…</string>
+    <string name="result_yearly_progress">…</string>
+    <string name="result_books_left_month">…</string>
+    <string name="result_books_left_year">…</string>
     <string name="btn_reset">Reset</string>
     <string name="welcome">Welcome to Stacked!</string>
     <string name="message">Stacked is designed to help you stay on track and achieve your reading goals.</string>
@@ -18,4 +23,6 @@
     <string name="desc_two">• Books Read: Update as you finish books.</string>
     <string name="desc_three">• Results: See your progress and remaining books.</string>
     <string name="btn_done">Done</string>
+    <string name="btn_info_desc">Info Button</string>
+    <string name="screen_media_desc">Stacked Logo</string>
 </resources>
