@@ -240,6 +240,7 @@
                             android:layout_marginRight="10dp"
                             android:gravity="center"
                             android:text="@string/result_monthly_goal"
+                            android:textColor="@color/orange"
                             android:textSize="30sp"
                             android:textStyle="bold"/>
 
@@ -274,6 +275,7 @@
                             android:layout_marginRight="10dp"
                             android:gravity="center"
                             android:text="@string/result_monthly_progress"
+                            android:textColor="@color/orange"
                             android:textSize="30sp"
                             android:textStyle="bold"/>
 
@@ -307,6 +309,7 @@
                             android:layout_marginRight="10dp"
                             android:gravity="center"
                             android:text="@string/result_yearly_progress"
+                            android:textColor="@color/orange"
                             android:textSize="30sp"
                             android:textStyle="bold"/>
 
@@ -343,6 +346,7 @@
                         android:layout_marginBottom="15dp"
                         android:gravity="center"
                         android:text="@string/result_books_left_month"
+                        android:textColor="@color/orange"
                         android:textStyle="bold"
                         android:textSize="25sp" />
 
@@ -376,6 +380,7 @@
                             android:layout_marginBottom="15dp"
                             android:gravity="center"
                             android:text="@string/result_books_left_year"
+                            android:textColor="@color/orange"
                             android:textStyle="bold"
                             android:textSize="25sp" />
 
